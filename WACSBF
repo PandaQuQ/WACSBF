@@ -32,16 +32,12 @@ function selWP(){
         
         return 0
 }
-function makeConfig(){
-	mkdir -p ~/.config/WACSBF/cache
-	mkdir -p ~/.config/WACSBF/downloaded_wallpapers
-}
 
 function changeWP(){
 	mark=$(cat ~/.config/WACSBF/notfirstmark)
 	if [ -n "$mark" ]
 	then
-		makeConfig
+#		makeConfig
 		selWP $@
 		feh --randomize --no-fehbg --bg-fill ~/.config/WACSBF/downloaded_wallpapers/
 		touch ~/.config/WACSBF/notfirstmark
