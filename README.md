@@ -6,7 +6,7 @@
 ![Last Commit](https://badgen.net/github/last-commit/PandaQuQ/WACSBF) ![License](https://badgen.net/github/license/PandaQuQ/WACSBF) ![Contributors](https://badgen.net/github/contributors/PandaQuQ/WACSBF) 
 
 
-English [中文](https://github.com/PandaQuQ/WACSBF/blob/master/README.zh-CN.md)
+English [中文](README.zh-CN.md)
 
 Dependency：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [feh](https://feh.finalrewind.org/), [bspwm](https://github.com/baskerville/bspwm)
 
