@@ -13,10 +13,11 @@ function makeConfig(){
 		echo "PATH="\$HOME/.config/WACSBF/scripts:\$PATH"" >> $zshrc_path
 		echo "alias wacsbf='sh \$HOME/.config/WACSBF/scripts/WACSBF'" >> $zshrc_path
 	else
-	    echo "不支持的shell类型"
+	    echo "涓嶆敮鎸佺殑shell绫诲瀷"
 	    exit
 	fi
 	if [[ -f $bspwmrc_path ]]; then
+		echo "PATH="\$HOME/.config/WACSBF/scripts:\$PATH"" >> $bspwmrc_path
 		echo "wacsbf" >> $bspwmrc_path
 	fi
 
