@@ -14,15 +14,22 @@
 ---
 ## 安装：
 确认自己安装了且正在使用bspwm和feh
+
 `git clone https://github.com/PandaQuQ/WACSBF.git`
+
 `cd WACSBF`
+
 `sh ./install.sh`
+
 看到`finished`且无报错代表安装完成 
 
 ---
 ## 使用方法：
+
 在shell中输入WACSBF（或者wacsbf)即可
+
 壁纸api切换: `nano ~/.config/WACSBF/scripts/WACSBF`
+
 按照comment修改最后一行的参数即可 
 
 ---
