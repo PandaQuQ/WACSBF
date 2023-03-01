@@ -1,12 +1,12 @@
 # A Wallpaper Auto Change Script for Bspwm and Feh
----
+
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://badgen.net/github/forks/PandaQuQ/WACSBF)
 
 ![Issues](https://badgen.net/github/issues/PandaQuQ/WACSBF) ![Open Issues](https://badgen.net/github/open-issues/PandaQuQ/WACSBF)  ![Closed Issues](https://badgen.net/github/closed-issues/PandaQuQ/WACSBF) 
 
 ![Last Commit](https://badgen.net/github/last-commit/PandaQuQ/WACSBF) ![License](https://badgen.net/github/license/PandaQuQ/WACSBF) ![Contributors](https://badgen.net/github/contributors/PandaQuQ/WACSBF) 
 
----
+
 English [中文](https://github.com/PandaQuQ/WACSBF/blob/master/README.zh-CN.md)
 
 ___
