@@ -1,7 +1,10 @@
 # 基于Bspwm和Feh的自动更换壁纸脚本
-[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://flat.badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://flat.badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://flat.badgen.net/github/forks/PandaQuQ/WACSBF)
-![Issues](https://flat.badgen.net/github/issues/PandaQuQ/WACSBF) ![Open Issues](https://flat.badgen.net/github/open-issues/PandaQuQ/WACSBF)  ![Closed Issues](https://flat.badgen.net/github/closed-issues/PandaQuQ/WACSBF) 
-![Last Commit](https://flat.badgen.net/github/last-commit/PandaQuQ/WACSBF) ![License](https://flat.badgen.net/github/license/PandaQuQ/WACSBF) ![Contributors](https://flat.badgen.net/github/contributors/PandaQuQ/WACSBF) 
+---
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://badgen.net/github/forks/PandaQuQ/WACSBF)
+
+![Issues](https://badgen.net/github/issues/PandaQuQ/WACSBF) ![Open Issues](https://badgen.net/github/open-issues/PandaQuQ/WACSBF)  ![Closed Issues](https://badgen.net/github/closed-issues/PandaQuQ/WACSBF) 
+
+![Last Commit](https://badgen.net/github/last-commit/PandaQuQ/WACSBF) ![License](https://badgen.net/github/license/PandaQuQ/WACSBF) ![Contributors](https://badgen.net/github/contributors/PandaQuQ/WACSBF) 
 
 ---
 依赖：curl, wget, feh, bspwm
@@ -9,7 +12,21 @@
 提供两类（风景、动漫）壁纸和四个api
 
 ---
-实现功能：
+## 安装：
+确认自己安装了且正在使用bspwm和feh
+`git clone https://github.com/PandaQuQ/WACSBF.git`
+`cd WACSBF`
+`sh ./install.sh`
+看到`finished`且无报错代表安装完成 
+
+---
+## 使用方法：
+在shell中输入WACSBF（或者wacsbf)即可
+壁纸api切换: `nano ~/.config/WACSBF/scripts/WACSBF`
+按照comment修改最后一行的参数即可 
+
+---
+### 实现功能：
 
 - [ ] 自动定时更换
 - [x] api一键切换
