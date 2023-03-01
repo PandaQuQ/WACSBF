@@ -1,5 +1,4 @@
 # A Wallpaper Auto Change Script for Bspwm and Feh
----
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://badgen.net/github/forks/PandaQuQ/WACSBF)
 
 ![Issues](https://badgen.net/github/issues/PandaQuQ/WACSBF) ![Open Issues](https://badgen.net/github/open-issues/PandaQuQ/WACSBF)  ![Closed Issues](https://badgen.net/github/closed-issues/PandaQuQ/WACSBF) 
@@ -13,7 +12,6 @@ Dependency：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/
 
 4 APIs provided for 2 kinds of wallpapers(landscape,anime)
 
----
 ## Installation:
 Make sure bspwm and feh are installed
 
@@ -25,7 +23,6 @@ Make sure bspwm and feh are installed
 
 Once `finished` show up without errors, WACSBF is successfully installed.
 
----
 ## Usage:
 
 Type`WACSBF`(or `wacsbf`) in your shell
@@ -34,7 +31,6 @@ Change wallpaper apis: `nano ~/.config/WACSBF/scripts/WACSBF`
 
 Modify the parameters in the last line accroding to the comment.
 
----
 ### Functions:
 
 - [ ] Scheduled wallpaper auto change
