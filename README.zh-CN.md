@@ -1,5 +1,5 @@
 # 基于Bspwm和Feh的自动更换壁纸脚本
-
+---
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://badgen.net/github/forks/PandaQuQ/WACSBF)
 
 ![Issues](https://badgen.net/github/issues/PandaQuQ/WACSBF) ![Open Issues](https://badgen.net/github/open-issues/PandaQuQ/WACSBF)  ![Closed Issues](https://badgen.net/github/closed-issues/PandaQuQ/WACSBF) 
@@ -9,7 +9,7 @@
 
 [English](https://github.com/PandaQuQ/WACSBF/blob/master/README.md)
  中文
----
+
 依赖：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [feh](https://feh.finalrewind.org/), [bspwm](https://github.com/baskerville/bspwm)
 
 提供两类（风景、动漫）壁纸和四个api
