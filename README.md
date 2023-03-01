@@ -1,4 +1,4 @@
-# 基于Bspwm和Feh的自动更换壁纸脚本
+# A Wallpaper Auto Change Script for Bspwm and Feh
 ---
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://git.pandaquq.tk/panda/WACSBF) ![Watchers](https://badgen.net/github/watchers/PandaQuQ/WACSBF) ![Stars](https://badgen.net/github/stars/PandaQuQ/WACSBF) ![Forks](https://badgen.net/github/forks/PandaQuQ/WACSBF)
 
@@ -7,13 +7,16 @@
 ![Last Commit](https://badgen.net/github/last-commit/PandaQuQ/WACSBF) ![License](https://badgen.net/github/license/PandaQuQ/WACSBF) ![Contributors](https://badgen.net/github/contributors/PandaQuQ/WACSBF) 
 
 ---
-依赖：curl, wget, feh, bspwm
+English [中文](https://github.com/PandaQuQ/WACSBF/blob/master/README.zh-CN.md)
 
-提供两类（风景、动漫）壁纸和四个api
+___
+Dependency：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [feh](https://feh.finalrewind.org/), [bspwm](https://github.com/baskerville/bspwm)
+
+4 APIs provided for 2 kinds of wallpapers(landscape,anime)
 
 ---
-## 安装：
-确认自己安装了且正在使用bspwm和feh
+## Installation:
+Make sure bspwm and feh are installed
 
 `git clone https://github.com/PandaQuQ/WACSBF.git`
 
@@ -21,31 +24,31 @@
 
 `sh ./install.sh`
 
-看到`finished`且无报错代表安装完成 
+Once `finished` show up without errors, WACSBF is successfully installed.
 
 ---
-## 使用方法：
+## Usage:
 
-在shell中输入WACSBF（或者wacsbf)即可
+Type`WACSBF`(or `wacsbf`) in your shell
 
-壁纸api切换: `nano ~/.config/WACSBF/scripts/WACSBF`
+Change wallpaper apis: `nano ~/.config/WACSBF/scripts/WACSBF`
 
-按照comment修改最后一行的参数即可 
+Modify the parameters in the last line accroding to the comment.
 
 ---
-### 实现功能：
+### Functions:
 
-- [ ] 自动定时更换
-- [x] api一键切换
-- [x] 自动建立alias
-- [x] 自动下载壁纸
-- [x] 自动创建目录
-- [ ] 自动绑定快捷键
-- [x] 安装脚本
-- [x] 开机自动运行
-- [x] 写入bspwm config
-- [ ] 卸载脚本
-- [ ] 自动安装依赖
-- [ ] 增加英语
-- [x] 增加git钩子同步github
-- [ ] 想到再说
+- [ ] Scheduled wallpaper auto change
+- [x] Change APIs in one key
+- [x] Auto establish the alias
+- [x] Auto download the wallpapers
+- [x] Auto make directorys
+- [ ] Auto bind short-keys
+- [x] Installation script
+- [x] Start up running
+- [x] Write in bspwm's config
+- [ ] Uninstallation script
+- [ ] Auto installation for dependences
+- [ ] Add English support
+- [x] Add a Githook from Gogs to sync the repo to github
+- [ ] More functions

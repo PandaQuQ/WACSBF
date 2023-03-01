@@ -1,6 +1,8 @@
+#!/bin/bash
 #       基于FEH和在线API实现的在线实时更换壁纸
-#       作者：PandaQuQ
-#       url: https://blog.pandaquq.tk/
+#	A Wallpaper Auto Change Script for Bspwm and Feh
+#       作者 Author：PandaQuQ
+#       url: https://git.pandaquq.tk/panda/WACSBF
 
 function getWP(){
 	if [ $1 -eq 1 ]
@@ -50,5 +52,9 @@ function changeWP(){
 
 
 
-#	1是4k风景图 2是小窝动漫api  3是xjh api  4是eees图片api
+#1是4k风景图 2是小歪动漫api  3是xjh api  4是eees图片api
+#APIS: Eatshit.cn ixiaowai.cn xjh.me eees.cc
+
+#参数 1 为4k风景 2、3、4为动漫
+#Parameter 1 Landscape 2,3,4 Anime
 changeWP 1

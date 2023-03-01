@@ -1,3 +1,4 @@
+#!/bin/bash
 function makeConfig(){
 	shell_type="$(echo $SHELL | grep -E -o '[[:alpha:]]{1,2}sh')"
 	bashrc_path=~/.bashrc
