@@ -11,16 +11,16 @@ function getWP(){
 		grep -o  -a -E '/images-t/.*\.jpg'  ~/.config/WACSBF/cache/1  > ~/.config/WACSBF/cache/2
 		url1=$(cat ~/.config/WACSBF/cache/2)
 		url_real="https://www.eatshit.cn${url1}"
-		wget $url_real -O ~/.config/WACSBF/downloaded_wallpapers/$2.jpg
+		wget $url_real -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 		rm -rf ~/.config/WACSBF/cache/*
 	elif [ $1 -eq 2 ] 
 	then
-		wget https://api.ixiaowai.cn/api/api2.php --no-check-certificate -O ~/.config/WACSBF/downloaded_wallpapers/$2.jpg
+		wget https://api.ixiaowai.cn/api/api2.php --no-check-certificate -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 	elif [ $1 -eq 3 ]
 	then
-		wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O ~/.config/WACSBF/downloaded_wallpapers/$2.jpg
+		wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 	else
-		wget `curl "https://tuapi.eees.cc/api .php?category=dongman&px=pc" |  grep -o -E  'https://tuapi\.eees\.cc/dongman/pc/TUAPI-EEES-CC-[[:digit:]]{2,12}\.jpg' ` -O ~/.config/WACSBF/downloaded_wallpapers/$2.jpg
+		wget `curl "https://tuapi.eees.cc/api .php?category=dongman&px=pc" |  grep -o -E  'https://tuapi\.eees\.cc/dongman/pc/TUAPI-EEES-CC-[[:digit:]]{2,12}\.jpg' ` -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 	fi
 
 }
@@ -41,11 +41,11 @@ function changeWP(){
 	then
 #		makeConfig
 		selWP $@
-		feh --randomize --no-fehbg --bg-fill ~/.config/WACSBF/downloaded_wallpapers/
+		feh --randomize --no-fehbg --bg-fill ~/.config/bspwm/theme/wallpapers/
 		touch ~/.config/WACSBF/notfirstmark
 		echo "not first time" > ~/.config/WACSBF/notfirstmark
 	else
-		feh --randomize --no-fehbg --bg-fill ~/.config/WACSBF/downloaded_wallpapers/
+		feh --randomize --no-fehbg --bg-fill ~/.config/bspwm/theme/wallpapers/
 		selWP $@
 	fi
 }
