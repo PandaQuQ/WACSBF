@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 function makeConfig(){
 	shell_type="$(echo $SHELL | grep -E -o '[[:alpha:]]{1,2}sh')"
 	bashrc_path=~/.bashrc
@@ -28,6 +29,6 @@ super + alt + w
 
 }
 makeConfig
-cp ./WACSBF $HOME/.config/bspwm/scripts/WACSBF
+cp $SCRIPT_DIR/WACSBF $HOME/.config/bspwm/scripts/WACSBF
 
 echo "WACSBF installation finished"
