@@ -20,7 +20,7 @@ function makeConfig(){
 		echo "wacsbf" >> $bspwmrc_path
 	fi
 		if [[ -f $sxhkdrc_path ]]; then
-		echo "# Random wallpaper
+		echo "# WACSBF
 super + alt + w
 	wacsbf " >> $sxhkdrc_path
 	fi
