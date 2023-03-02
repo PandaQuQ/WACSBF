@@ -36,12 +36,14 @@ function selWP(){
 }
 
 function changeWP(){
-	mark=$(cat ~/.config/WACSBF/notfirstmark)
+	mark=~/.config/WACSBF/notfirstmark
 	if [[ -f "$mark" ]]; then
 		feh --randomize --no-fehbg --bg-fill ~/.config/bspwm/theme/wallpapers/
 		selWP $@
+		rm ~/.config/bspwm/theme/wallpapers/*
 	else
 		selWP $@
+		rm ~/.config/bspwm/theme/wallpapers/*
 		feh --randomize --no-fehbg --bg-fill ~/.config/bspwm/theme/wallpapers/
 		touch ~/.config/WACSBF/notfirstmark
 	fi
