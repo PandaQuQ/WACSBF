@@ -18,7 +18,7 @@ function makeConfig(){
 	    exit
 	fi
 	if [[ -f $bspwmrc_path ]]; then
-		echo "wacsbf" >> $bspwmrc_path
+		echo "sh ~/.config/bspwm/scripts/WACSBF" >> $bspwmrc_path
 	fi
 		if [[ -f $sxhkdrc_path ]]; then
 		echo "# WACSBF
