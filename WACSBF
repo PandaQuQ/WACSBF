@@ -19,8 +19,12 @@ function getWP(){
 	elif [ $1 -eq 3 ]
 	then
 		wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O wget `curl "https://img.xjh.me/random_img.php?type=bg"  | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' | grep -o -E  'img\.xjh\.me/img/[[:digit:]]{2,10}_p[[:digit:]]\.jpg' -m 1 ` -O ~/.config/bspwm/theme/wallpapers/$2.jpg
-	else
+	elif [ $1 -eq 4 ]
+	then
 		wget `curl "https://tuapi.eees.cc/api .php?category=dongman&px=pc" |  grep -o -E  'https://tuapi\.eees\.cc/dongman/pc/TUAPI-EEES-CC-[[:digit:]]{2,12}\.jpg' ` -O ~/.config/bspwm/theme/wallpapers/$2.jpg
+	elif [ $1 -eq 5 ]
+	then
+		wget https://t.mwm.moe/fj/ --no-check-certificate -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 	fi
 
 }
@@ -54,6 +58,11 @@ function changeWP(){
 #1是4k风景图 2是小歪动漫api  3是xjh api  4是eees图片api
 #APIS: Eatshit.cn ixiaowai.cn xjh.me eees.cc
 
-#参数 1 为4k风景 2、3、4为动漫
-#Parameter 1 Landscape 2,3,4 Anime
-changeWP 1
+#参数 1 为4k风景 2、3、4、5为动漫
+#现在只有5生效了
+#Parameter 1 Landscape 2,3,4,5 Anime
+#Now only 5 is valid
+changeWP 5
+
+
+
