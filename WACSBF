@@ -25,6 +25,9 @@ function getWP(){
 	elif [ $1 -eq 5 ]
 	then
 		wget https://t.mwm.moe/fj/ --no-check-certificate -O ~/.config/bspwm/theme/wallpapers/$2.jpg
+        elif [ $1 -eq 6 ]
+        then
+                wget https://img.xjh.me/random_img.php\?return\=302\&ctype\=nature\&type\=bg --no-check-certificate -O ~/.config/bspwm/theme/wallpapers/$2.jpg
 	fi
 
 }
@@ -58,11 +61,11 @@ function changeWP(){
 #1是4k风景图 2是小歪动漫api  3是xjh api  4是eees图片api
 #APIS: Eatshit.cn ixiaowai.cn xjh.me eees.cc
 
-#参数 1 为4k风景 2、3、4、5为动漫
+#参数 1 为4k风景 2、3、4、5、6为动漫
 #现在只有5生效了
-#Parameter 1 Landscape 2,3,4,5 Anime
-#Now only 5 is valid
-changeWP 5
+#Parameter 1 Landscape 2,3,4,5,6 Anime
+#Now only 6 is valid
+changeWP 6
 
 
 
