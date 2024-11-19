@@ -10,7 +10,8 @@ English [中文](README.zh-CN.md)
 
 Dependency：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [feh](https://feh.finalrewind.org/), [bspwm](https://github.com/baskerville/bspwm)
 
-4 APIs provided for 2 kinds of wallpapers(landscape,anime)
+6 APIs provided for 2 kinds of wallpapers(landscape,anime)
+> 5 APIs died sadly
 
 ## Installation:
 Make sure bspwm and feh are installed
