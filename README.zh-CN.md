@@ -11,7 +11,7 @@
 
 依赖：[curl](https://curl.se/), [wget](https://www.gnu.org/software/wget/), [feh](https://feh.finalrewind.org/), [bspwm](https://github.com/baskerville/bspwm)
 
-提供两类（风景、动漫）壁纸和四个api
+提供针对两类（风景、动漫）壁纸的六个api(五个寄了)
 
 ## 安装：
 确认自己安装了且正在使用bspwm和feh
